@@ -18,14 +18,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="text" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Noh-H7-zxc">
-                                <rect key="frame" x="109" y="230" width="197" height="22"/>
+                                <rect key="frame" x="108.18685121107274" y="229.99999999999977" width="197.00000000000006" height="21.999999999999986"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <color key="textColor" red="0.83921568629999999" green="0.037955750859999998" blue="0.71747599449999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oon-Wg-EJd">
-                                <rect key="frame" x="86" y="327" width="242" height="242"/>
+                                <rect key="frame" x="85.87543252595151" y="327" width="242.00000000000006" height="242.00000000000003"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Нажми на кнопку" cornerStyle="capsule" titleAlignment="center">
@@ -34,7 +34,7 @@
                                     <color key="baseBackgroundColor" red="1" green="0.69929576250000003" blue="0.99942700009999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="buttonDidTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LeL-yM-Dst"/>
+                                    <action selector="tapButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FIG-EJ-FIm"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -42,7 +42,6 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
-                        <outlet property="buttonText" destination="Oon-Wg-EJd" id="bgC-qF-wYv"/>
                         <outlet property="counterText" destination="Noh-H7-zxc" id="o7S-tl-VY8"/>
                     </connections>
                 </viewController>
